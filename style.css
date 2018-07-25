@@ -69,8 +69,22 @@ a:hover {
   color: white;
 }
 
+.button-smaller {
+  width: 150px;
+  background-color: rgba(22, 135, 167, 0.7);
+  padding: 0px;
+  border-radius: 4px;
+  margin: 20px auto;
+  box-shadow: none;
+  color: white;
+}
+
 .button:hover {
   background-color: rgba(221, 10, 53, 1);
+}
+
+.button-smaller:hover {
+  background-color: rgba(22, 135, 167, 1);
 }
 
 @media (max-width: 960px) {
