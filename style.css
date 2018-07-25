@@ -1,10 +1,14 @@
+p {
+  font-weight: 300
+}
+
 body {
   background-color: rgb(240, 240, 240);
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  color: #ff2e4c;
+  color: #dd0a35;
   font-size: 24px;
   line-height: 50px;
 }
@@ -13,7 +17,7 @@ h2 {
   font-size: 20px;
 }
 
-div {
+.card {
   background: white;
   width: 700px;
   border-radius: 8px;
@@ -48,11 +52,25 @@ a:hover {
   padding-left: 0;
 }
 
-.list-inline li {
+.list-inline > li {
   display: inline-block;
   margin: 10px;
   font-size: 15px;
   font-weight: 300;
+}
+
+.button {
+  width: 150px;
+  background-color: rgba(221, 10, 53, 0.7);
+  padding: 1px;
+  border-radius: 4px;
+  margin: 20px auto;
+  box-shadow: none;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgba(221, 10, 53, 1);
 }
 
 @media (max-width: 960px) {
@@ -74,4 +92,26 @@ a:hover {
   div {
     width: 300px;
   }
+}
+
+#facebook-icon:hover {
+  color: #3b5998;
+}
+
+#linkedin-icon:hover {
+  color: #0077B5;
+}
+
+#instagram-icon:hover {
+  color: #fbad50;
+}
+
+.weird-button {
+  color: white;
+  background-color: #1687a7;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  border-radius: 20px;
 }
