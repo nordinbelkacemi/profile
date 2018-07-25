@@ -120,6 +120,10 @@ a:hover {
   color: #fbad50;
 }
 
+#soundcloud-icon:hover {
+  color: #ff7700 ;
+}
+
 .weird-button {
   color: white;
   background-color: #1687a7;
